@@ -43,6 +43,7 @@ public class MercuryTsTest
 		boolean flag1=driver.findElement(By.xpath("//img[@src='/images/masts/mast_flightfinder.gif']")).isDisplayed();
 		System.out.println("Flight finder Image is displayed");
 		driver.findElement(By.linkText("SIGN-OFF")).click();
+		System.out.println("github");
 	}
 	
 	@Test(priority=2,description="Verify that valid user2 able to login into Mercury Tours Application by using valid username and password")
